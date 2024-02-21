@@ -71,8 +71,7 @@ public class Ejercicio4 {
 			}
 		}
 	}
-	
-		
+
 	static void guardarObjeto(Persona persona, String nombreArchivo) {
 		
 		try (ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream(nombreArchivo))){
